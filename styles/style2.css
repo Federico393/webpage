@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    overflow-x: scroll; 
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif; 
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-align: left;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 0.8;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-gap: 10px;
+    width: 90%;
+    margin:  auto;
+    padding: 20px 0;
+    justify-content: center; 
+    align-items: center;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    max-height: 80vh;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+}
+
+.grid-containerT {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr)); 
+    grid-gap: 10px;
+    width: 90%;
+    margin:  auto;
+    padding: 20px 0;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.line {
+    width: 99%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.text-line {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 5px;
+}
